@@ -16,17 +16,22 @@ img{
     background-color: #F6F9FC;
 }
 .topContent{
-    padding-top:50px;
+    padding-top:80px;
+    padding-bottom:50px;
+    display: flex;
+    flex-direction: column
 }
+
 .topContent-a img{
-    
+    width:90%
 }
 .topContent-b{
     flex-direction: column;
-    margin:0px 0px 0px 0px;
+    margin:0px 0px 0px 20px;
 }
 .topContent-b-one{
-    font-size:1.2em;
+    font-size:1.1em;
+    padding:20px 0px 15px 0px;
 }
 .topcontent-b-two{
     margin-top:15px;
@@ -37,19 +42,25 @@ img{
 .topContent-buttons{
     padding-top:30px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .topContent-buttons button{
     border-radius:10px;
-    padding:2px 55px 2px 55px;
+    padding:5px 5px 5px 5px;
     background-color:#E9802C;
     color:white;
     justify-content: center;
+    margin:0px 20px 0px 20px;
+
 }
 .topContent-buttons img{
     width:5%;
+    margin:auto;
 }
-
+.topContent-buttons p{
+    margin:auto;
+    
+}
 .burger-menu{    
     margin-right:20px;
     float:right;
@@ -94,7 +105,7 @@ img{
 .column{
     box-sizing:border-box;
     flex-basis: 35%;
-    margin:0 auto;
+    margin:auto;
     padding-bottom:30px;
 }
 .column-text{
@@ -118,7 +129,6 @@ button{
 .column-img-a{
     background-color:#FDF1E9;
     border-radius: 50%;
-    padding:1px;
     width:50px;
     height:50px;
     margin:0px 0px 25px 100px
@@ -127,7 +137,6 @@ button{
 .column-img-b{
     background-color:#E8F9F3;
     border-radius: 50%;
-    padding:1px;
     width:50px;
     height:50px;
     margin:0px 0px 25px 100px
@@ -135,7 +144,6 @@ button{
 .column-img-c{
     background-color:#E6EEFF;
     border-radius: 50%;
-    padding:1px;
     width:50px;
     height:50px;
     margin:0px 0px 25px 100px
@@ -145,7 +153,7 @@ button{
     margin:auto;
 }
 .viewallFeatures button{
-    width:100px;
+    width:150px;
     padding:5px 5px 5px 5px ;
     border-radius: 5px;
     background-color:#E9802C;
@@ -184,12 +192,13 @@ button{
         box-shadow: black;
     }
     .topContent-a img{
-        width:80%;
+        width:90%;
     }
     .topContent{
         display:flex;
         padding-bottom:150px;
         justify-content: flex-start;
+        flex-direction: row;
     }
     .topContent-b{
         display:flex;
@@ -197,8 +206,8 @@ button{
         justify-content: center;
  }
     .topContent-b-one{
-        font-size:1.4em;
-        width:490px;
+        font-size:1.5em;
+        width:530px;
         padding-bottom:10px;
     }
     .topContent-b-two{
@@ -208,6 +217,7 @@ button{
     }
     .topContent-b-two p{
         line-height: 20px;
+        width:425px
     }
 
     .topContent-buttons{
@@ -218,11 +228,13 @@ button{
         justify-content: flex-start;
     }
   .topContent-buttons button{
-    border-radius:15px;
-    padding:5px 5px 5px 5px;
+    border-radius:35px;
+    padding:2px 2px 2px 2px;
     background-color:#E9802C;
     color:white;
     margin-right:20px;
+    width:250px;
+
 }
   .topContent-buttons p{
       margin:auto;
@@ -254,7 +266,7 @@ button{
 .second-text{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-around;    
 
 }
 .second-text p{
@@ -298,7 +310,6 @@ button{
 .column-img-a{
     background-color:#FDF1E9;
     border-radius: 50%;
-    padding:1px;
     margin:0px 25px 25px 0px;
     width:50px;
     height:50px;
@@ -307,7 +318,6 @@ button{
 .column-img-b{
     background-color:#E8F9F3;
     border-radius: 50%;
-    padding:1px;
     margin:0px 25px 25px 0px;
     width:50px;
     height:50px;
@@ -316,7 +326,6 @@ button{
 .column-img-c{
     background-color:#E6EEFF;
     border-radius: 50%;
-    padding:1px;
     margin:0px 25px 25px 0px;
     width:50px;
     height:50px;
