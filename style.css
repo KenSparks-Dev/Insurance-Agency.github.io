@@ -6,6 +6,7 @@
 }
 p{
     font-family: 'Roboto' ;
+    font-weight: 900
 }
 img{
     width:100%;
@@ -43,8 +44,12 @@ img{
     padding:2px 55px 2px 55px;
     background-color:#E9802C;
     color:white;
-    justify-content: center
+    justify-content: center;
 }
+.topContent-buttons img{
+    width:5%;
+}
+
 .burger-menu{    
     margin-right:20px;
     float:right;
@@ -77,9 +82,7 @@ img{
     font-size:1.5em; 
     margin-bottom:25px;   
 }
-.first-text p{
 
-}
 .second-text{
      display:flex;
      flex-direction: column;
@@ -174,8 +177,8 @@ button{
         padding: 5px
     }
     .full-page-menu ul li button{
-        border-radius:10px;
-        padding:5px 15px 5px 15px;
+        border-radius:15px;
+        padding:5px 5px 5px 5px;
         background-color:#E9802C;
         color:white;
         box-shadow: black;
@@ -207,17 +210,27 @@ button{
         line-height: 20px;
     }
 
-    .topcontent-buttons{
-        width:375px;
+    .topContent-buttons{
+        width:285px;
         padding-top:30px;
         display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
     }
-  .topcontent-buttons button{
-    border-radius:10px;
-    padding:2px 55px 2px 55px;
+  .topContent-buttons button{
+    border-radius:15px;
+    padding:5px 5px 5px 5px;
     background-color:#E9802C;
     color:white;
-  }
+    margin-right:20px;
+}
+  .topContent-buttons p{
+      margin:auto;
+}
+  .topContent-buttons img{
+    width:5%;
+    margin:auto;
+}
   .bodyBottom {
     margin-top:40px;
     display:flex;
@@ -260,9 +273,9 @@ button{
     margin:auto;
 }
 .viewallFeatures button{
-    width:100px;
-    padding:5px 5px 5px 5px ;
-    border-radius: 5px;
+    width:200px;
+    padding:8px 8px 8px 8px ;
+    border-radius: 15px;
     background-color:#E9802C;
     color:white;
 
